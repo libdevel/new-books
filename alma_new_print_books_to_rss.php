@@ -35,7 +35,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>' . PHP_EOL;
 	<link>http://www.sunybroome.edu/library/</link>
 	<description>SUNY Broome Library Book Feed : New Print Books</description>
 <image>
-	<url>https://sunybroome.info/ssl_images/sunybroomelibrarylogo.jpg</url>
+	<url>https://dev.sunybroome.dev/ssl_images/sunybroomelibrarylogo.jpg</url>
 	<title>SUNY Broome Library</title>
 	<link>http://www.sunybroome.edu/library/</link>
 </image>
@@ -95,9 +95,10 @@ echo '<?xml version="1.0" encoding="utf-8"?>' . PHP_EOL;
 	<link><?php echo $url; ?></link>
 	<description>
 		<![CDATA[
-			<?php echo $description; ?>
+			<?php echo $image_src; ?>
 		]]>
 	</description>
+
 </item>
 <?php
 }}
