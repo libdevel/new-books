@@ -1,0 +1,6 @@
+# DDev's snapshot directory.
+/library/config.inc
+
+
+# Ignore .DS_Store
+.DS_Store*
